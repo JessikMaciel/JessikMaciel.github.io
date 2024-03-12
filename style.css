@@ -1,0 +1,131 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: rgb(26, 12, 77);
+    width: 100%;
+    color: aliceblue;
+    background-image: url(Imagenes/fondo\ 5\ header.gif)
+}
+header h1{ 
+font-size: 45px;
+font-family: "Celtic Garamond the 2nd";
+text-align: center;
+margin-top: 5%;
+
+}
+a{
+    text-decoration:none;
+    color: aliceblue;
+    font-size: 40px;
+    font-style:normal;
+    
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;    
+    
+}
+header ul li{
+    margin: 20px;
+    list-style-type:none;
+    text-decoration:wavy;
+}
+
+
+img {
+    width: 180px;
+}
+
+.presentacion h1 {
+    background-color: rgb(13, 14, 14);
+    text-align: center;
+    text-shadow: white;
+    color: antiquewhite;
+    margin: 0;
+
+}
+.presentacion p{ 
+    font-size: 40px;
+    text-align:center;
+    color: rgb(63, 233, 233);
+    background-image: url(Imagenes/fondo\ 3\ header.gif);
+    text-shadow: 10px;
+    margin: 10px;
+    font-weight: bolder;
+
+}
+.presentacion img{
+    width: 100%;
+margin: 0%;
+}
+
+
+.divisor h1{
+    color: rgb(240, 243, 243);
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    background-image: url(Imagenes/fondo\ 4\ header.gif);
+    margin: 0%;
+    
+}
+.muestra{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-image: url(Imagenes/fondo\ 5\ header.gif);
+
+}
+    
+.muestra img{
+    border-radius: 30%;
+    width: 100%;
+    padding: 30px;
+    margin: 0px;
+}
+.muestra h1{
+    font-size: 50px;
+    color: azure;
+    font-weight: bolder;
+}
+.muestra p{
+font-size: 30px;
+color:azure;
+}
+.mapa{
+    background-image: url(Imagenes/fondo.jpg);
+    width: 100%;
+    padding: 30px;
+    margin-top: 15px;
+}
+iframe{
+   width: 100%;
+   margin-left: 15px;
+   
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(12, 12, 14);
+    margin-top: 0px;
+
+}
+footer h1{
+    font-size: 25px;
+    color:rgb(244, 245, 244);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    text-align: left;
+}
+
+footer img{
+width: 25%;
+margin-left: 25px;
+}
+
+  
